@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "i2cStuff"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -55,19 +55,7 @@ static void MX_USART2_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-struct LCD{
-	LCD(uint8_t cs, uint8_t cd, uint8_t wr, uint8_t rd, uint8_t reset){
 
-	}
-	begin(){
-
-	}
-	writePixel(uint16_t x, uint16_t y){
-
-	}
-
-
-};
 /* USER CODE END 0 */
 
 /**
